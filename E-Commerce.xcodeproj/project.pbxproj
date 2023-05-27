@@ -13,6 +13,7 @@
 		5D2B34992A21285E00333945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B34972A21285E00333945 /* Main.storyboard */; };
 		5D2B349B2A21286100333945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B349A2A21286100333945 /* Assets.xcassets */; };
 		5D2B349E2A21286100333945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B349C2A21286100333945 /* LaunchScreen.storyboard */; };
+		5D8A19012A22783C0016C293 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A18FF2A22783C0016C293 /* CoreData.xcdatamodeld */; };
 		5D901E962A22571600C71F71 /* grovana-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D901E932A22570E00C71F71 /* grovana-bold.otf */; };
 		5D901E972A22571900C71F71 /* grovana-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D901E942A22570E00C71F71 /* grovana-medium.otf */; };
 		5D901E982A22571900C71F71 /* grovana-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D901E922A22570E00C71F71 /* grovana-regular.otf */; };
@@ -41,6 +42,7 @@
 		5D2B349A2A21286100333945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D2B349D2A21286100333945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D2B349F2A21286100333945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8A19002A22783C0016C293 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 		5D901E922A22570E00C71F71 /* grovana-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "grovana-regular.otf"; sourceTree = "<group>"; };
 		5D901E932A22570E00C71F71 /* grovana-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "grovana-bold.otf"; sourceTree = "<group>"; };
 		5D901E942A22570E00C71F71 /* grovana-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "grovana-medium.otf"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				5D2B349F2A21286100333945 /* Info.plist */,
 				5D901E952A22571200C71F71 /* Fonts */,
 				5DC97FCA2A2139040010687F /* Extension */,
+				5D8A18FF2A22783C0016C293 /* CoreData.xcdatamodeld */,
 			);
 			path = "E-Commerce";
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			files = (
 				5D901EA22A225DAF00C71F71 /* BrandViewController.swift in Sources */,
 				5DC97FB42A21315A0010687F /* LoginViewController.swift in Sources */,
+				5D8A19012A22783C0016C293 /* CoreData.xcdatamodeld in Sources */,
 				5DC97FD52A213B900010687F /* ProductCell.swift in Sources */,
 				5D2B34962A21285E00333945 /* ViewController.swift in Sources */,
 				5DC97FB62A2131DF0010687F /* SignupViewController.swift in Sources */,
@@ -450,6 +454,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5D8A18FF2A22783C0016C293 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D8A19002A22783C0016C293 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 5D8A19002A22783C0016C293 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5D2B34862A21285E00333945 /* Project object */;
 }
