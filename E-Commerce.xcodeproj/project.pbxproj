@@ -13,6 +13,23 @@
 		5D2B34992A21285E00333945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B34972A21285E00333945 /* Main.storyboard */; };
 		5D2B349B2A21286100333945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B349A2A21286100333945 /* Assets.xcassets */; };
 		5D2B349E2A21286100333945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B349C2A21286100333945 /* LaunchScreen.storyboard */; };
+		5D901E962A22571600C71F71 /* grovana-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D901E932A22570E00C71F71 /* grovana-bold.otf */; };
+		5D901E972A22571900C71F71 /* grovana-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D901E942A22570E00C71F71 /* grovana-medium.otf */; };
+		5D901E982A22571900C71F71 /* grovana-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D901E922A22570E00C71F71 /* grovana-regular.otf */; };
+		5D901E9A2A22594600C71F71 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D901E992A22594600C71F71 /* ProductViewController.swift */; };
+		5D901E9F2A225C4D00C71F71 /* SizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D901E9D2A225C4D00C71F71 /* SizeCell.swift */; };
+		5D901EA02A225C4D00C71F71 /* SizeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D901E9E2A225C4D00C71F71 /* SizeCell.xib */; };
+		5D901EA22A225DAF00C71F71 /* BrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D901EA12A225DAF00C71F71 /* BrandViewController.swift */; };
+		5DC97FB42A21315A0010687F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC97FB32A21315A0010687F /* LoginViewController.swift */; };
+		5DC97FB62A2131DF0010687F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC97FB52A2131DF0010687F /* SignupViewController.swift */; };
+		5DC97FBA2A2133610010687F /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC97FB92A2133610010687F /* Datasource.swift */; };
+		5DC97FBC2A2133CA0010687F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC97FBB2A2133CA0010687F /* Models.swift */; };
+		5DC97FBE2A2134100010687F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC97FBD2A2134100010687F /* HomeViewController.swift */; };
+		5DC97FC62A2137BD0010687F /* BrandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC97FC42A2137BD0010687F /* BrandCell.swift */; };
+		5DC97FC72A2137BD0010687F /* BrandCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC97FC52A2137BD0010687F /* BrandCell.xib */; };
+		5DC97FC92A2138FE0010687F /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC97FC82A2138FE0010687F /* Array+Extension.swift */; };
+		5DC97FD52A213B900010687F /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC97FD32A213B900010687F /* ProductCell.swift */; };
+		5DC97FD62A213B900010687F /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC97FD42A213B900010687F /* ProductCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,23 @@
 		5D2B349A2A21286100333945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D2B349D2A21286100333945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D2B349F2A21286100333945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D901E922A22570E00C71F71 /* grovana-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "grovana-regular.otf"; sourceTree = "<group>"; };
+		5D901E932A22570E00C71F71 /* grovana-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "grovana-bold.otf"; sourceTree = "<group>"; };
+		5D901E942A22570E00C71F71 /* grovana-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "grovana-medium.otf"; sourceTree = "<group>"; };
+		5D901E992A22594600C71F71 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		5D901E9D2A225C4D00C71F71 /* SizeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeCell.swift; sourceTree = "<group>"; };
+		5D901E9E2A225C4D00C71F71 /* SizeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SizeCell.xib; sourceTree = "<group>"; };
+		5D901EA12A225DAF00C71F71 /* BrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewController.swift; sourceTree = "<group>"; };
+		5DC97FB32A21315A0010687F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5DC97FB52A2131DF0010687F /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		5DC97FB92A2133610010687F /* Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
+		5DC97FBB2A2133CA0010687F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5DC97FBD2A2134100010687F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5DC97FC42A2137BD0010687F /* BrandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCell.swift; sourceTree = "<group>"; };
+		5DC97FC52A2137BD0010687F /* BrandCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrandCell.xib; sourceTree = "<group>"; };
+		5DC97FC82A2138FE0010687F /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		5DC97FD32A213B900010687F /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		5DC97FD42A213B900010687F /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +93,53 @@
 				5D2B34912A21285E00333945 /* AppDelegate.swift */,
 				5D2B34932A21285E00333945 /* SceneDelegate.swift */,
 				5D2B34952A21285E00333945 /* ViewController.swift */,
+				5DC97FB32A21315A0010687F /* LoginViewController.swift */,
+				5DC97FB52A2131DF0010687F /* SignupViewController.swift */,
+				5DC97FBD2A2134100010687F /* HomeViewController.swift */,
+				5D901E992A22594600C71F71 /* ProductViewController.swift */,
+				5D901EA12A225DAF00C71F71 /* BrandViewController.swift */,
+				5DC97FC32A21379F0010687F /* Xib Cells */,
+				5DC97FB92A2133610010687F /* Datasource.swift */,
+				5DC97FBB2A2133CA0010687F /* Models.swift */,
 				5D2B34972A21285E00333945 /* Main.storyboard */,
 				5D2B349A2A21286100333945 /* Assets.xcassets */,
 				5D2B349C2A21286100333945 /* LaunchScreen.storyboard */,
 				5D2B349F2A21286100333945 /* Info.plist */,
+				5D901E952A22571200C71F71 /* Fonts */,
+				5DC97FCA2A2139040010687F /* Extension */,
 			);
 			path = "E-Commerce";
+			sourceTree = "<group>";
+		};
+		5D901E952A22571200C71F71 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5D901E932A22570E00C71F71 /* grovana-bold.otf */,
+				5D901E942A22570E00C71F71 /* grovana-medium.otf */,
+				5D901E922A22570E00C71F71 /* grovana-regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5DC97FC32A21379F0010687F /* Xib Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5DC97FC42A2137BD0010687F /* BrandCell.swift */,
+				5DC97FC52A2137BD0010687F /* BrandCell.xib */,
+				5DC97FD32A213B900010687F /* ProductCell.swift */,
+				5DC97FD42A213B900010687F /* ProductCell.xib */,
+				5D901E9D2A225C4D00C71F71 /* SizeCell.swift */,
+				5D901E9E2A225C4D00C71F71 /* SizeCell.xib */,
+			);
+			path = "Xib Cells";
+			sourceTree = "<group>";
+		};
+		5DC97FCA2A2139040010687F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5DC97FC82A2138FE0010687F /* Array+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +201,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D2B349E2A21286100333945 /* LaunchScreen.storyboard in Resources */,
+				5D901E962A22571600C71F71 /* grovana-bold.otf in Resources */,
 				5D2B349B2A21286100333945 /* Assets.xcassets in Resources */,
+				5DC97FD62A213B900010687F /* ProductCell.xib in Resources */,
 				5D2B34992A21285E00333945 /* Main.storyboard in Resources */,
+				5DC97FC72A2137BD0010687F /* BrandCell.xib in Resources */,
+				5D901E972A22571900C71F71 /* grovana-medium.otf in Resources */,
+				5D901EA02A225C4D00C71F71 /* SizeCell.xib in Resources */,
+				5D901E982A22571900C71F71 /* grovana-regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +219,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D901EA22A225DAF00C71F71 /* BrandViewController.swift in Sources */,
+				5DC97FB42A21315A0010687F /* LoginViewController.swift in Sources */,
+				5DC97FD52A213B900010687F /* ProductCell.swift in Sources */,
 				5D2B34962A21285E00333945 /* ViewController.swift in Sources */,
+				5DC97FB62A2131DF0010687F /* SignupViewController.swift in Sources */,
+				5DC97FC92A2138FE0010687F /* Array+Extension.swift in Sources */,
+				5DC97FBE2A2134100010687F /* HomeViewController.swift in Sources */,
+				5D901E9A2A22594600C71F71 /* ProductViewController.swift in Sources */,
+				5DC97FBC2A2133CA0010687F /* Models.swift in Sources */,
+				5D901E9F2A225C4D00C71F71 /* SizeCell.swift in Sources */,
+				5DC97FC62A2137BD0010687F /* BrandCell.swift in Sources */,
 				5D2B34922A21285E00333945 /* AppDelegate.swift in Sources */,
 				5D2B34942A21285E00333945 /* SceneDelegate.swift in Sources */,
+				5DC97FBA2A2133610010687F /* Datasource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

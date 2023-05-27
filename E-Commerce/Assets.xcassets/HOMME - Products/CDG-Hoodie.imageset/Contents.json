@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "CDG-Hoodie.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
