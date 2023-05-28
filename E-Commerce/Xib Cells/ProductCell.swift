@@ -16,7 +16,7 @@ class ProductCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        setupRadius()
     }
 
     func setupRadius() {

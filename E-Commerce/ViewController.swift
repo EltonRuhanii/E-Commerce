@@ -4,6 +4,12 @@
 //
 //  Created by WIZZARD on 26.5.23.
 //
+// TODO:
+/*
+ 1. isFirstLaunch
+    - case true - intro screen
+    - case false - viewDidLoad send directly to HomeScreen
+ */
 
 import UIKit
 

@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eEe-gD-LHs">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -369,6 +370,9 @@
                                         <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain"/>
+                                        <connections>
+                                            <action selector="favoritePressed:" destination="Goo-9I-Q9u" eventType="touchUpInside" id="MxO-EJ-UWt"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -422,7 +426,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="ohK-cO-25Z" firstAttribute="top" secondItem="Ljx-LP-x0c" secondAttribute="top" id="HFz-sX-P0y"/>
                                             <constraint firstAttribute="height" constant="70" id="VuY-Wg-FdQ"/>
@@ -456,16 +460,16 @@
                                                 </constraints>
                                             </view>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Jze-UT-80N">
-                                                <rect key="frame" x="20" y="3" width="166" height="54"/>
+                                                <rect key="frame" x="30" y="3" width="156" height="54"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSv-2W-KI2">
-                                                        <rect key="frame" x="0.0" y="0.0" width="166" height="24.666666666666668"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="156" height="24.666666666666668"/>
                                                         <fontDescription key="fontDescription" name="Grovana-Regular" family="Grovana" pointSize="16"/>
                                                         <color key="textColor" white="0.94999999999999996" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ XXX.XX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jgf-Ol-CG7">
-                                                        <rect key="frame" x="0.0" y="29.666666666666629" width="166" height="24.333333333333329"/>
+                                                        <rect key="frame" x="0.0" y="29.666666666666629" width="156" height="24.333333333333329"/>
                                                         <fontDescription key="fontDescription" name="Grovana-Regular" family="Grovana" pointSize="16"/>
                                                         <color key="textColor" white="0.94999999999999996" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -481,7 +485,7 @@
                                             <constraint firstAttribute="bottom" secondItem="Jze-UT-80N" secondAttribute="bottom" constant="3" id="KwJ-2k-YZH"/>
                                             <constraint firstAttribute="trailing" secondItem="KpX-UY-MH0" secondAttribute="trailing" constant="3" id="L2s-VD-lPz"/>
                                             <constraint firstItem="KpX-UY-MH0" firstAttribute="leading" secondItem="Jze-UT-80N" secondAttribute="trailing" constant="10" id="lld-vT-T6Z"/>
-                                            <constraint firstItem="Jze-UT-80N" firstAttribute="leading" secondItem="4ku-ao-mo7" secondAttribute="leading" constant="20" id="maw-JC-eLp"/>
+                                            <constraint firstItem="Jze-UT-80N" firstAttribute="leading" secondItem="4ku-ao-mo7" secondAttribute="leading" constant="30" id="maw-JC-eLp"/>
                                             <constraint firstAttribute="bottom" secondItem="KpX-UY-MH0" secondAttribute="bottom" constant="3" id="pMs-us-Aef"/>
                                         </constraints>
                                     </view>
@@ -496,7 +500,7 @@
                                         <subviews>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hCi-x9-eAJ">
                                                 <rect key="frame" x="0.0" y="0.0" width="361" height="50"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Scn-KG-1eW">
                                                     <size key="itemSize" width="128" height="128"/>
                                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -516,7 +520,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="Ljx-LP-x0c" firstAttribute="top" secondItem="nDA-bW-jiv" secondAttribute="bottom" constant="5" id="1Q0-2R-dH7"/>
                                     <constraint firstItem="G6L-u1-PFm" firstAttribute="leading" secondItem="9QI-pr-aoa" secondAttribute="leading" constant="16" id="9e0-dP-nyn"/>
@@ -561,6 +565,7 @@
                     <connections>
                         <outlet property="addToCartButtonHlder" destination="KpX-UY-MH0" id="Hyb-r4-d40"/>
                         <outlet property="collectionView" destination="hCi-x9-eAJ" id="cYJ-aQ-Unc"/>
+                        <outlet property="favoriteImage" destination="Otj-uz-i5n" id="wfq-yd-QBx"/>
                         <outlet property="productBrand" destination="G6L-u1-PFm" id="JaU-Il-TIN"/>
                         <outlet property="productDescription" destination="ohK-cO-25Z" id="cgC-2v-1Ls"/>
                         <outlet property="productImage" destination="0V6-mO-P9f" id="5M5-eb-tzE"/>
@@ -621,7 +626,7 @@
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="T7b-PQ-VYc">
                                 <rect key="frame" x="0.0" y="52" width="393" height="725"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cart is empty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQw-Dv-SKR">
                                 <rect key="frame" x="16" y="399" width="361" height="31.333333333333314"/>
@@ -653,14 +658,14 @@
                                 <color key="backgroundColor" red="0.90164434910000002" green="0.49839740989999998" blue="0.27707839010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shopping cart" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lH-kU-4rS">
-                                <rect key="frame" x="16" y="6" width="361" height="28"/>
+                                <rect key="frame" x="16" y="6.3333333333333339" width="361" height="27.666666666666664"/>
                                 <fontDescription key="fontDescription" name="Grovana-Medium" family="Grovana" pointSize="22"/>
                                 <color key="textColor" red="0.90164434910000002" green="0.49839740989999998" blue="0.27707839010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3yf-J8-ypU"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ghD-kj-NDn" secondAttribute="trailing" constant="8" id="1il-x8-JYH"/>
                             <constraint firstAttribute="bottom" secondItem="9Nc-sQ-M9H" secondAttribute="bottom" id="5id-mz-2VW"/>
@@ -1487,7 +1492,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hiw-Tq-zXu"/>
+        <segue reference="HNg-Ui-1jz"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Back" width="45" height="45"/>

@@ -16,9 +16,11 @@ class ProductViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var productPrice: UILabel!
     @IBOutlet weak var addToCartButtonHlder: UIView!
+    @IBOutlet weak var favoriteImage: UIImageView!
     
     @IBOutlet weak var productPriceholder: UIView!
     var productModel: ProductModel?
+    var favorite: Bool = false
     
     // MARK: BODY
     override func viewDidLoad() {
@@ -33,6 +35,17 @@ class ProductViewController: UIViewController {
     @IBAction func backButtonPressed(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
+    
+    @IBAction func favoritePressed(_ sender: Any) {
+        if favorite == false {
+            favoriteImage.image = UIImage(named: "Favorite - Selected")
+            favorite = true
+        } else if favorite == true {
+            favoriteImage.image = UIImage(named: "Favorite")
+            favorite = false
+        }
+    }
+    
 }
 
 // MARK: FUNCTIONS
