@@ -38,7 +38,7 @@ class HomeViewController: UIViewController {
 // MARK: FUNCTIONS
 extension HomeViewController {
     func setupRadius() {
-        locationHolder.layer.cornerRadius = locationHolder.frame.height / 4
+        locationHolder.layer.cornerRadius = locationHolder.frame.height / 2
         locationPin.layer.cornerRadius = locationPin.frame.height / 2
         changeButton.layer.cornerRadius = changeButton.frame.height / 2
     }

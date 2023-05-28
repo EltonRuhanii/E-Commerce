@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D1E5EA42A2387AE00BC4233 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1E5EA32A2387AE00BC4233 /* ExploreViewController.swift */; };
+		5D1E5EA62A23C9D600BC4233 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1E5EA52A23C9D600BC4233 /* CartViewController.swift */; };
 		5D2B34922A21285E00333945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B34912A21285E00333945 /* AppDelegate.swift */; };
 		5D2B34942A21285E00333945 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B34932A21285E00333945 /* SceneDelegate.swift */; };
 		5D2B34962A21285E00333945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B34952A21285E00333945 /* ViewController.swift */; };
@@ -34,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D1E5EA32A2387AE00BC4233 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		5D1E5EA52A23C9D600BC4233 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		5D2B348E2A21285E00333945 /* E-Commerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Commerce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2B34912A21285E00333945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D2B34932A21285E00333945 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				5DC97FBD2A2134100010687F /* HomeViewController.swift */,
 				5D901E992A22594600C71F71 /* ProductViewController.swift */,
 				5D901EA12A225DAF00C71F71 /* BrandViewController.swift */,
+				5D1E5EA32A2387AE00BC4233 /* ExploreViewController.swift */,
+				5D1E5EA52A23C9D600BC4233 /* CartViewController.swift */,
 				5DC97FC32A21379F0010687F /* Xib Cells */,
 				5DC97FB92A2133610010687F /* Datasource.swift */,
 				5DC97FBB2A2133CA0010687F /* Models.swift */,
@@ -232,8 +238,10 @@
 				5DC97FBE2A2134100010687F /* HomeViewController.swift in Sources */,
 				5D901E9A2A22594600C71F71 /* ProductViewController.swift in Sources */,
 				5DC97FBC2A2133CA0010687F /* Models.swift in Sources */,
+				5D1E5EA42A2387AE00BC4233 /* ExploreViewController.swift in Sources */,
 				5D901E9F2A225C4D00C71F71 /* SizeCell.swift in Sources */,
 				5DC97FC62A2137BD0010687F /* BrandCell.swift in Sources */,
+				5D1E5EA62A23C9D600BC4233 /* CartViewController.swift in Sources */,
 				5D2B34922A21285E00333945 /* AppDelegate.swift in Sources */,
 				5D2B34942A21285E00333945 /* SceneDelegate.swift in Sources */,
 				5DC97FBA2A2133610010687F /* Datasource.swift in Sources */,

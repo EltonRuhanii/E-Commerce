@@ -16,6 +16,7 @@ enum ProductBrand: String {
     case pleasures = "PLEASURES"
     case represent = "REPRESENT"
     case vetements = "VETEMENTS"
+    case all = "all"
 }
 
 // Coming soon
