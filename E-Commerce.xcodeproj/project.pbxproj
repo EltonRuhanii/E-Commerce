@@ -98,6 +98,21 @@
 			children = (
 				5D2B34912A21285E00333945 /* AppDelegate.swift */,
 				5D2B34932A21285E00333945 /* SceneDelegate.swift */,
+				5D73F03C2A294C680043DA21 /* ViewController */,
+				5D73F03E2A294C840043DA21 /* Models */,
+				5D73F03D2A294C770043DA21 /* UI */,
+				5D2B349F2A21286100333945 /* Info.plist */,
+				5D73F03F2A294C8A0043DA21 /* Resources */,
+				5D901E952A22571200C71F71 /* Fonts */,
+				5DC97FCA2A2139040010687F /* Extension */,
+				5D8A18FF2A22783C0016C293 /* CoreData.xcdatamodeld */,
+			);
+			path = "E-Commerce";
+			sourceTree = "<group>";
+		};
+		5D73F03C2A294C680043DA21 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
 				5D2B34952A21285E00333945 /* ViewController.swift */,
 				5DC97FB32A21315A0010687F /* LoginViewController.swift */,
 				5DC97FB52A2131DF0010687F /* SignupViewController.swift */,
@@ -106,18 +121,35 @@
 				5D901EA12A225DAF00C71F71 /* BrandViewController.swift */,
 				5D1E5EA32A2387AE00BC4233 /* ExploreViewController.swift */,
 				5D1E5EA52A23C9D600BC4233 /* CartViewController.swift */,
-				5DC97FC32A21379F0010687F /* Xib Cells */,
-				5DC97FB92A2133610010687F /* Datasource.swift */,
-				5DC97FBB2A2133CA0010687F /* Models.swift */,
-				5D2B34972A21285E00333945 /* Main.storyboard */,
-				5D2B349A2A21286100333945 /* Assets.xcassets */,
-				5D2B349C2A21286100333945 /* LaunchScreen.storyboard */,
-				5D2B349F2A21286100333945 /* Info.plist */,
-				5D901E952A22571200C71F71 /* Fonts */,
-				5DC97FCA2A2139040010687F /* Extension */,
-				5D8A18FF2A22783C0016C293 /* CoreData.xcdatamodeld */,
 			);
-			path = "E-Commerce";
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5D73F03D2A294C770043DA21 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5D2B34972A21285E00333945 /* Main.storyboard */,
+				5D2B349C2A21286100333945 /* LaunchScreen.storyboard */,
+				5DC97FC32A21379F0010687F /* Xib Cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5D73F03E2A294C840043DA21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5DC97FBB2A2133CA0010687F /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D73F03F2A294C8A0043DA21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DC97FB92A2133610010687F /* Datasource.swift */,
+				5D2B349A2A21286100333945 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		5D901E952A22571200C71F71 /* Fonts */ = {

@@ -1488,11 +1488,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Qw-Ww-JCj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2969" y="782"/>
+            <point key="canvasLocation" x="2969" y="726"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="HNg-Ui-1jz"/>
+        <segue reference="hiw-Tq-zXu"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Back" width="45" height="45"/>

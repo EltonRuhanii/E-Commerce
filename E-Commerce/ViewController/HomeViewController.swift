@@ -20,7 +20,6 @@ class HomeViewController: UIViewController {
     var promotionModel: [PromotionModel] = Datasource().promotionModel
     var brandsModel: [BrandModel] = Datasource().brandModel
     var productsModel: [ProductModel] = Datasource().getPopularBrands()
-    
     var addressCity: String = "Change location"
     
     // MARK: BODY
@@ -36,7 +35,7 @@ class HomeViewController: UIViewController {
 }
 
 // MARK: FUNCTIONS
-extension HomeViewController {
+private extension HomeViewController {
     func setupRadius() {
         locationHolder.layer.cornerRadius = locationHolder.frame.height / 2
         locationPin.layer.cornerRadius = locationPin.frame.height / 2
@@ -125,5 +124,4 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
             }
         }
     }
-    
 }

@@ -17,8 +17,8 @@ class ProductViewController: UIViewController {
     @IBOutlet weak var productPrice: UILabel!
     @IBOutlet weak var addToCartButtonHlder: UIView!
     @IBOutlet weak var favoriteImage: UIImageView!
-    
     @IBOutlet weak var productPriceholder: UIView!
+    
     var productModel: ProductModel?
     var favorite: Bool = false
     
@@ -45,7 +45,6 @@ class ProductViewController: UIViewController {
             favorite = false
         }
     }
-    
 }
 
 // MARK: FUNCTIONS
@@ -84,5 +83,4 @@ extension ProductViewController: UICollectionViewDelegate, UICollectionViewDataS
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: 45, height: 45)
     }
-    
 }
